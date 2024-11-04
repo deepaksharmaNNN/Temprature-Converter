@@ -1,6 +1,19 @@
-#header{
-    background-color: #333;
-    color: purple;
+body{
+    font-family: 'Courier New', Courier, monospace;
     text-align: center;
-    padding: 5px;
+    margin: 0%;
+    padding: 20px;
+    background-color: azure;
 }
+h1{
+    color: darkblue;
+}
+input[type="text"],
+    select{
+        padding: 10px;
+        font-size: 16px;
+        margin: 10px;
+        border-radius: 5px;
+        border: 1px solid darkblue;
+        width: 200px;
+    }

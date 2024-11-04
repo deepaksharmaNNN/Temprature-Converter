@@ -3,19 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Temprature Converter</title>
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1 id="header">Temprature Converter</h1>
-    <input type="text" id="input" placeholder="Enter Temprature">
+    <h1 id="header">Temperature Converter</h1>
+    <input type="text" id="input" placeholder="Enter Temperature">
     <select id="unit">
         <option value="C">Celsius</option>
         <option value="F">Fahrenheit</option>
     </select>
     <button id="convert">Convert</button>
-    <p id="output">Converted Temprature: <span id="converted">0</span></p>
-
+    <p>Converted Temperature: <span id="converted">0</span></p>
+    <script src="script.js"></script> <!-- Moved to the end of the body -->
 </body>
-<script src="script.js"></script>
-<link rel="stylesheet" href="style.css">
 </html>
