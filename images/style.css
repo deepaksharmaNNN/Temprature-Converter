@@ -16,4 +16,27 @@ input[type="text"],
         border-radius: 5px;
         border: 1px solid darkblue;
         width: 200px;
-    }
+}
+button{
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid darkblue;
+    background-color: darkblue;
+    color: white;
+}
+button:hover{
+    background-color: lightblue;
+    color: darkblue;
+}
+p{
+    color: darkblue;
+    font-weight: bold;
+    font-size: 20px;
+}
+#converted{
+    color: darkblue;
+    font-size: large;
+    font-weight: bold;
+}
